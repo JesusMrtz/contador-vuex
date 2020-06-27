@@ -1,0 +1,9 @@
+* Los estilos tienen un atributo llamada "scoped" que si se lo pones los estilos solo afectarian al componente que lo tienen y no a ss hijos que se implementan.
+
+
+
+* Vuex maneja 3 archivos:
+    - state: Es el que maneja los datos
+    - view: Muestra los datos 
+    - actions: Modifica los datos haciendo peticiones asincronas a servicios
+    - mutations: Altera el estado, el primer parametro que recibe la mutación es el state
